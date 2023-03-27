@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- scss -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="bg-top"></div>
+    <div class="container">
+      <header class="header">
+        <div class="header__text">
+          <h1 class="header__text-title" >Social Media Dashboard</h1>
+          <p class="header__text-amount">Total Followers: 23,004 </p>
+        </div>
+        <div class="header__switch">
+          <p>Dark Mode</p>
+          <input data-mode="white" type="checkbox" name="darkmode" class="switch" aria-label="input" id="toggle_darkmode" />
+        </div>
+      </header>
+
+      <div class="cards-top">
+
+        <div class="card-top fb">
+          <div class="card-top__name">
+            <img src="./images/icon-facebook.svg" alt="facebook-icon">
+            <p>@nathanf</p>
+          </div>
+          <p class="card-top__followers">1987</p>
+          <p class="card-top__text">followers</p>
+          <div class="card-top__today">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="card-top__today--up">12 Today</p>
+          </div>
+        </div>
+
+        <div class="card-top twitter">
+          <div class="card-top__name">
+            <img src="./images/icon-twitter.svg" alt="facebook-icon">
+            <p>@nathanf</p>
+          </div>
+          <p class="card-top__followers">1044</p>
+          <p class="card-top__text">followers</p>
+          <div class="card-top__today">
+            <img src="./images/icon-up.svg" alt="">
+            <p  class="card-top__today--up">99 Today</p>
+          </div>
+        </div>
+        <div class="card-top insta">
+          <div class="card-top__name">
+            <img src="./images/icon-instagram.svg" alt="facebook-icon">
+            <p>@realnathanf</p>
+          </div>
+          <p class="card-top__followers">11k</p>
+          <p class="card-top__text">followers</p>
+          <div class="card-top__today">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="card-top__today--up">1099 Today</p>
+          </div>
+        </div>
+        <div class="card-top youtube">
+          <div class="card-top__name">
+            <img src="./images/icon-youtube.svg" alt="facebook-icon">
+            <p>Nathan F.</p>
+          </div>
+          <p class="card-top__followers">8239</p>
+          <p class="card-top__text">followers</p>
+          <div class="card-top__today">
+            <img src="./images/icon-down.svg" alt="">
+            <p class="card-top__today--down">144 Today</p>
+          </div>
+        </div>
+      </div>
+      <p class="cards-down__title">Overview - Today</p>
+      <div class="cards-down">
+        
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">87</p>
+            <div class="card-top__today">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="card-top__today--up">3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">52</p>
+            <div class="card-top__today">
+              <img src="./images/icon-down.svg" alt="">
+              <p class="card-top__today--down">2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">5462</p>
+            <div class="card-top__today">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="card-top__today--up">2257%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Profiles Views</p>
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">52k</p>
+            <div class="card-top__today">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="card-top__today--up">1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">117</p>
+            <div class="card-top__today">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="card-top__today--up">303%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">507</p>
+            <div class="card-top__today">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="card-top__today--up">553%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">107</p>
+            <div class="card-top__today">
+              <img src="./images/icon-down.svg" alt="">
+              <p class="card-top__today--down">19%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-down">
+          <div class="card-down__name">
+            <p class="card-down__name-title">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="">
+          </div>
+          <div class="card-down__numbers">
+            <p class="card-down__number">1407</p>
+            <div class="card-top__today">
+              <img src="./images/icon-down.svg" alt="">
+              <p class="card-top__today--down">12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/Magdalena142">Magdalena142</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
